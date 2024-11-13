@@ -1,6 +1,6 @@
 # u01 - SixtenE
 
-### Krav
+## Krav
 
 - [x] Du använder moderna layouttekniker som CSS Flexbox och/eller CSS Grid
 - [x] Sidan ska vara responsiv enligt mobile-first och vara anpassad för desktop (1600px) och mobil (600px) enligt designskiss
@@ -14,22 +14,33 @@
 - [x] Du använder Git för versionshantering och gör flera commits med tydliga meddelanden
 - [ ] Du publicerar ditt Github-repo på Github pages
 
-### Sammantfattning av projekt + teoretiska frågor
+## Sammantfattning av projekt + teoretiska frågor
 
 Jag tycker att den här uppgiften var bra. Att skriva kod och utgå från en design är bra att träna på eftersom jag tror att det ofta går till så i verkligheten. Att man får en design från någon annan och ska försöka skriva koden så att den blir så lik som möjligt.
 Det jag är mest nöjd med den här uppgiften tror jag är att jag inte överkomplicerade layouten. Jag började med en layout med för många små element för att justera mista lilla detalj. Jag valde istället för att börja om och använda färre element vilke också hjälpte mig att
 inte gå vilse i koden utan kunde förstå elementens syfte.
 Jag tyckte det var lite frustrerande att man inte kunde återanvända komponenter. Jag har hållt på lite med React och då kan man till exempel använda samma header och bara importera den i de olika sidorna som använder den.
 
-# 1. Vad är HTML och dess roll inom frontend? Vad menas med semantiskt html?
+### 1. Vad är HTML och dess roll inom frontend? Vad menas med semantiskt html?
 
 HTML använder man för strukturen på en hemsidan till exempel bilder eller formulär.
 Semantisk html betyder att man delar upp hemsidan med de inbyggda html-elementen på det sätt de är gjorda för. T.ex. använda "header" eller "button". Fördelen med semantisk html är SEO-optimering och tillgänglighet. För sökmotorer är det lättare att indexa en semantisk hemsida och den blir enklare att navigera för tillgänglighetsverktyg så som en skärmläsare.
 
-# 2. Vad är CSS och dess roll inom frontend?
+### 2. Vad är CSS och dess roll inom frontend?
 
-CSS användar man för att dekorera en hemsidas html och kan förbättra användares upplevelse på en hemsida.
+CSS är ett _style language_ man använder för att styra utseendet på _markup_ så som html, xml etc. Med CSS kan man ändra visuella element på en hemsida för att förbättra upplevelsen. Vanliga sådana kan vara typsnitt, färger och animationer.
 
-# 3. Vad menas med responsiv design samt med vilka metoder man kan utveckla responsiva sidor?
+Det finns många olika sätt att använda CSS på en hemsida, jag har testat tre.
+
+- Vanliga .css-filer
+- Chakra-ui, ett bibliotek med färdiga komponenter
+- Tailwind, ett ramverk med färdiga klasser man själv kan kombinera
+
+Av dem jag har använt är Tailwind min favorit. Jag tror att vanliga .css-filer kan underlätta när man jobbar flera på ett projekt.
+Jag har mest kodat själv och då gillar jag att ha markupen och CSSen på samma ställe som man får med Tailwind. Kan dock bli stökigt i markupen ju mer avancerad CSSen blir.
+
+CSS är viktigt då det används för att ändra hemsidans utseende efter responsivitet.
+
+### 3. Vad menas med responsiv design samt med vilka metoder man kan utveckla responsiva sidor?
 
 Att en hemsida är responsiv betyder att den ändras utifrån användarens preferenser och behov. Exempelvis kan man göra en hemsida responsiv genom att se till att den fungerar på enheter med olika skärmstorlekar.
